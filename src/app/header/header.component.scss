@@ -1,0 +1,47 @@
+@import '../../styles.scss';
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+    a{
+        color: $color-red;
+    }
+
+    ul{
+        display: flex;
+        li{
+            font-weight: 500;
+            list-style-type: none;
+            &:nth-child(2){
+                padding: 0 2rem;
+            }
+            &:hover{
+                cursor: pointer;
+                color: $color-red;
+            }
+        }
+    }
+
+    &-btn{
+        font-weight: 600;
+        padding: .3rem 2.5rem;
+        border-radius: 10px;
+        border: 2px solid $color-black;
+        &:hover{
+            cursor: pointer;
+            color: $color-white;
+            border-color: $color-white;
+            background-color: $color-red;
+        }
+    }
+    @media only screen and (max-width: 560px) {
+        .header{
+            justify-content: center;
+        }
+        ul, .header-btn{
+            display: none;
+        }
+    }
+}

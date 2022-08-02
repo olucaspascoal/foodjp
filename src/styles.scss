@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 
+$color-red: #DA2535;
+$color-gray: #616161;
+$color-black: #292929;
+$color-white: #FBFBFB;
+$color-white-2: #F3F3F3;
+
 *{
     margin:  0;
     padding: 0;
 }
 
 body{
+    color: $color-black;
+    background-color: $color-white;
     font-family: 'Montserrat', sans-serif;
 }
