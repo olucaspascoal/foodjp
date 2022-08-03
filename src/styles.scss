@@ -17,3 +17,7 @@ body{
     background-color: $color-white;
     font-family: 'Montserrat', sans-serif;
 }
+
+img{
+    pointer-events: none;
+}
