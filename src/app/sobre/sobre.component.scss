@@ -1,0 +1,33 @@
+@import '../../styles.scss';
+
+.sobre{
+    display: flex;
+    align-items: center;
+    &-esq{
+        width: 50%;
+        img{
+            width: 100%;
+        }
+    }
+    &-dir{
+        width: 50%;
+        display: flex;
+        margin-left: 3rem;
+        flex-direction: column;
+        h2{
+            width: 50%;
+        }
+        p{
+            margin: 1rem 0;
+        }
+    }
+    &-link{
+        color: $color-red;
+        font-weight: 500;
+        font-family: 'Inter', sans-serif;
+        text-decoration-line: underline;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
