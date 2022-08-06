@@ -31,3 +31,22 @@
         }
     }
 }
+
+@media only screen and (max-width: 560px){
+    .sobre{
+        margin: 2rem 0;
+        flex-direction: column;
+        &-esq{
+            width: 100%;
+        }
+        &-dir{
+            width: 100%;
+            margin: 2rem 0;
+            text-align: center;
+            h2{
+                width: 80%;
+                margin: auto;
+            }
+        }
+    }
+}
