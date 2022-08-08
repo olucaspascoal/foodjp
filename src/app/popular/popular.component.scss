@@ -12,3 +12,15 @@
         width: 30%;
     }
 }
+
+@media only screen and (max-width: 560px){
+    .popular{
+        &-box{
+            flex-direction: column;
+        }
+        &-item{
+            width: 100%;
+            margin: auto;
+        }
+    }
+}
