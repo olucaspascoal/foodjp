@@ -1,1 +1,8 @@
-<p>comentarios works!</p>
+<div class="comentarios">
+    <h2> Comentários </h2>
+    <div class="comentarios-box">
+        <ng-container *ngFor="let item of comentarios">
+            <app-comentario-item [data]="item" class="comentarios-item"></app-comentario-item>
+        </ng-container>
+    </div>
+</div>

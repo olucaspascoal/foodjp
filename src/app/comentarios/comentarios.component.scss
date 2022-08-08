@@ -1,0 +1,13 @@
+.comentarios{
+    h2{
+        margin-bottom: 2rem;
+    }
+    &-box{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    &-item{
+        width: 48%;
+    }
+}
