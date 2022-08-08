@@ -10,6 +10,7 @@ import { PopularComponent } from './popular/popular.component';
 import { ComentariosComponent } from './comentarios/comentarios.component';
 import { LocalizacaoComponent } from './localizacao/localizacao.component';
 import { FooterComponent } from './footer/footer.component';
+import { PopularItemComponent } from './popular/popular-item/popular-item.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     PopularComponent,
     ComentariosComponent,
     LocalizacaoComponent,
-    FooterComponent
+    FooterComponent,
+    PopularItemComponent
   ],
   imports: [
     BrowserModule,
