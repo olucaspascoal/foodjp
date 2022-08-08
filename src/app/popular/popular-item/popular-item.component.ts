@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-popular-item',
@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class PopularItemComponent implements OnInit {
 
   constructor() { }
+  @Input() data: any;
 
   ngOnInit(): void {
   }

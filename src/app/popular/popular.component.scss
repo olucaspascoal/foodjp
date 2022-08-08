@@ -1,0 +1,14 @@
+.popular{
+    margin: 2rem 0;
+    h2{
+        text-align: center;
+    }
+    &-box{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    &-item{
+        width: 30%;
+    }
+}
