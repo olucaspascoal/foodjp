@@ -11,3 +11,16 @@
         width: 48%;
     }
 }
+
+@media only screen and (max-width: 560px){
+    .comentarios{
+        &-box{
+            flex-direction: column;
+        }
+        &-item{
+            width: 100%;
+            text-align: center;
+            margin-top: 1rem;
+        }
+    }
+}

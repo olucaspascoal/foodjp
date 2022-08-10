@@ -14,3 +14,12 @@
         margin: .7rem 0;
     }
 }
+
+@media only screen and (max-width: 560px){
+    .item{
+        &-perfil{
+            // width: 70%;
+            height: 4rem;
+        }
+    }
+}

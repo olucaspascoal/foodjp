@@ -16,7 +16,7 @@ export class ComentariosComponent implements OnInit {
         foto: '/assets/perfil/1.png',
         nome: 'Daniele Almeida',
         descricao: 'Ótimo serviço! Encantada com a qualidade dos pratos.',
-        estrelas: 4
+        estrelas: 5
       },
       {
         foto: '/assets/perfil/2.png',
@@ -26,5 +26,4 @@ export class ComentariosComponent implements OnInit {
       }
     ]
   }
-
 }
